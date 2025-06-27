@@ -1,0 +1,210 @@
+body {
+      font-family: 'Playfair Display', serif;
+      background-color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .portfolio-cim {
+      color: rgb(0, 0, 0);
+      margin-top: 20px;
+      font-size: 40px;
+      text-align: center;
+      font-family: 'Lora', serif;
+    }
+
+    .kepsor1 {
+      display: grid;
+      gap: 15px;
+      grid-template-columns: repeat(4,1fr);
+      margin-top: 70px;
+    }
+
+    
+    .card {
+      max-width: 500px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+
+      /* A Bootstrap-féle keret, háttér, árnyék kikapcsolása */
+      border: none !important;
+      box-shadow: none !important;
+      background: transparent !important;
+    }
+
+    .card img {
+      
+      display: block;
+    }
+
+    .leiras {
+      margin-top: -10px;
+      line-height: 1.5;
+      padding: 10px 5px 0 5px;
+      font-family: 'Lora', serif;
+      font-size: 18px;
+      width: 300px;
+    
+    }
+
+    /* Mobil nézet */
+    @media screen and (max-width: 359px) {
+      .portfolio-cim {
+        font-size: 35px;
+        margin-bottom: 30px;
+      }
+
+      .kepsor1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+  
+      }
+      .card{
+        max-width: 350px;
+      }
+      .card img{
+        width: 100%;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+  
+      }
+      .leiras{
+        max-width: 3000px;
+        text-align: left;
+        margin-left: -20px;
+        
+      }
+    }
+
+    @media screen and (min-width:360px) and (max-width: 390px) {
+     .kepsor1{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      gap: 6px;
+      justify-content: center;
+     }
+     .card{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+     }
+     .card img{
+      width: 100%;
+      height: auto;
+     }
+     .leiras{
+      max-width: 170px;
+      font-size: 15px;
+      padding-left: 7px;
+      text-align: left;
+      
+     
+     }
+    }
+
+    @media screen and (min-width:390px) and (max-width: 490px) {
+
+.kepsor1{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      gap: 6px;
+      justify-content: center;
+     }
+     .card{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+     }
+     .card img{
+      width: 100%;
+      height: auto;
+     }
+     .leiras{
+      max-width: 190px;
+      font-size: 16px;
+      padding-left: 7px;
+      text-align: left;
+
+    }
+  }
+
+   @media screen and (min-width:490px) and (max-width: 650px) {
+
+     .kepsor1{
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      gap: 6px;
+      justify-content: center;
+     }
+     .card{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+     }
+     .card img{
+      width: 100%;
+      height: auto;
+     }
+     .leiras{
+      max-width: 170px;
+      font-size: 14px;
+      padding-left: 12px;
+      text-align: left;
+
+    }
+
+
+
+   }
+
+
+   @media screen and (min-width:650px) and (max-width: 950px) {
+
+     .kepsor1{
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      gap: 6px;
+      justify-content: center;
+     }
+     .card{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+     }
+     .card img{
+      width: 100%;
+      height: auto;
+     }
+     .leiras{
+      max-width: 170px;
+      font-size: 14px;
+      padding-left: 12px;
+      text-align: left;
+
+    }
+
+
+   }
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
