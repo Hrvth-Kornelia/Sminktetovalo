@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: "Playfair Display", serif;
+  background-color: white;
+}
+
+.container {
+  max-width: 100%;
+  padding: 15px;
+}
+.navbar{
+    width: 100%;
+    font-size: 20px;
+    height: 43px;
+    background-color: rgb(235, 235, 235);
+    padding-top: 2px;
+    white-space: nowrap;
+    color: rgb(126, 114, 114);
+    box-shadow: 0px 3px 12px rgb(161, 161, 161);
+    border-bottom: 1px solid rgb(242, 242, 242);  
+}
+.cim{
+margin-left:  700px;
+position: absolute;
+}
+.bi-list-task{
+ color: rgb(126, 114, 114);  
+ margin-left: 10px;
+ 
+}
+.szolgaltatasok {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  
+}
+
+/* Képek és szövegek egy blokkban */
+.kep-container {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  
+ 
+}
+
+.kep-container img {
+  width: 100%;
+  height: auto;
+  filter: brightness(0.6);
+  display: block;
+  border-radius: 5px;
+  
+  
+}
+
+/* A szöveg középen a képen */
+.feliratok {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  white-space: nowrap;
+}
+
+.feliratok h3 {
+  font-size: 25px;
+  margin-bottom: 15px;
+  font-family: "Playfair Display", serif;
+}
+
+.feliratok a {
+  background-color: black;
+  color: white;
+  padding: 9px 17px;
+  font-size: 14px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+/* Mobilra – responsive */
+@media screen and (max-width: 576px) {
+  .kep-container {
+    max-width: 90%;
+  }
+
+  .feliratok h3 {
+    font-size: 18px;
+  }
+
+  .feliratok a {
+    font-size: 13px;
+    padding: 5px 12px;
+  }
+  .cim{
+    margin-left: 50px;
+  }
+}
