@@ -1,0 +1,814 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #ffffff;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.bi-x-square,
+.bi-telephone,
+.bi-envelope-at-fill,
+.bi-cash-stack,
+.bi-shop{
+  color: #ffffff;   
+}
+.bi-instagram{
+  margin-left: -120px;
+  margin-top: -15px;
+  position: absolute;
+  font-size: 22px;
+}
+.bi-facebook{
+font-size: 22px;
+position: absolute;
+margin-left: -200px;
+margin-top: -4px;
+
+}
+.bi-globe2{
+font-size: 22px;
+margin-left: -205px;
+margin-top: -8px;
+padding-right: 10px;
+position: absolute;
+padding-top:5px;
+}
+.bi-shop{
+  margin-left: 10px;
+}
+.bi-envelope-at-fill{
+  margin-left: 15px;
+}
+.bi-telephone{
+  margin-left: 5px;
+}
+.bi-x-square{
+  margin-left: 5px;
+}
+.bi-hand-index-thumb{
+  margin-top: -60px;
+  margin-left: 140px;
+}
+.bi-house{
+  margin-left: 5px;
+}
+.bi-file-text{
+  margin-left: 5px;
+}
+.bi-bell{
+  margin-left: 5px;
+}
+.bi-cash-stack{
+  margin-left: 5px;
+}
+a{
+  text-decoration: none;
+}
+.bi-messenger{
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.bi-circle{
+  margin-top: 27px;
+  font-size: 7px;
+  position: absolute;
+}
+.short1{
+  width: 13%;
+  position: absolute;
+  margin-left: 80px;
+  margin-top: 33px;
+}
+.short2{
+  width: 13%;
+  position: absolute;
+  margin-left: -80px;
+  margin-top: 33px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.profilkep-image img {
+  width: 220px;
+  height: 210px;
+  margin-top: 20px;
+  margin-bottom: -10px;
+}
+.profilkep-image{
+  margin-left: 15px;
+}
+.hr1 {
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  margin: 20px 0;
+}
+.cegvezeto-nev{
+  font-size: 34px;
+  margin-top: 5px;
+}
+.tulajdonos{
+  font-size: 18px;
+  margin-top: -25px;
+  color:#878787;
+  font-family: "Playfair Display", serif;
+}
+.salonname{
+ color:#000000;
+ font-size: 22px;
+ margin-left:10px;
+ font-family: "Dancing Script", cursive;
+ margin-bottom: 11px;
+}
+.cegnev{
+  font-size: 23px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  margin-left: 17px;
+  
+}
+.kovetes{
+  display: flex;
+  flex-direction: row;
+  gap:100px;
+}
+.kovetes-gomb{
+  height: 45px;
+  width: 160px;
+  text-align: center;
+  font-size: 17px;
+  padding-top: 8px;
+  margin-left: -20px;
+  border: 2px solid rgb(172, 172, 172);
+  border-radius: 8px;
+  color: #d8d8d8;
+  background-color: #414141;
+  margin-bottom: 20px;
+  box-shadow: 0px 4px 12px rgb(107, 107, 107);
+}
+.bi-heart-fill{
+  margin-left: 7px;
+  font-size: 15px;
+}
+.koveto-szamlalo{
+  color: #878787;
+  font-size: 20px;
+  margin-top: 4px;
+  
+
+}
+.megosztas-messengeren{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left:-220px;
+  background-color:  #ffffff;
+  padding: 12px;
+  border-radius: 11px;
+  cursor: pointer;
+  color:rgb(0, 0, 0);
+  border: 1px solid rgb(183, 183, 183);
+  width: 150px;
+  height: 50px;
+  white-space: nowrap;
+  padding-left:1.5%;
+  text-decoration: none;   
+  box-shadow: 0px 4px 12px rgb(140, 140, 140);
+  font-family: "Josefin Slab", serif;
+  font-size: 17px;
+}
+.Login-registrer {
+  margin-top: -70px;
+  margin-bottom: 10px;
+  margin-left: 210px;
+  background-color:  #ffffff;
+  padding: 12px;
+  border-radius: 11px;
+  cursor: pointer;
+  color:rgb(0, 0, 0);
+  border: 1px solid rgb(183, 183, 183);
+  width: 190px;
+  height: 50px;
+  white-space: nowrap;
+  padding-left: 1%;
+  padding-right: 4%;
+  text-decoration: none;   
+  box-shadow: 0px 4px 12px rgb(140, 140, 140);
+  font-family: "Josefin Slab", serif;
+}
+.telefonszam{
+  background:linear-gradient(to left, rgb(120, 102, 102),  rgb(86, 65, 65));
+  border: 1px solid  rgb(125, 116, 116);
+  padding-top:15px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #ffffff;
+  width: 390px;
+  padding-left: 4%;
+  height: 60px;
+  white-space: nowrap;
+  margin-top: 20px;
+  text-decoration: none; 
+  font-size: 20px; 
+  box-shadow: 0px 7px 11px rgb(151, 151, 151);
+  font-family: "Josefin Slab", serif;
+}
+.emailcim{
+  background:linear-gradient(to left, rgb(120, 102, 102),  rgb(86, 65, 65));
+  border: 1px solid  rgb(125, 116, 116);
+  padding-top:15px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  width: 390px;
+  padding-left: 4%;
+  height: 60px;
+  white-space: nowrap;
+  margin-top: 20px;
+  text-decoration: none; 
+  font-size: 20px; 
+  box-shadow: 0px 7px 11px rgb(151, 151, 151);
+  font-family: "Josefin Slab", serif;
+} 
+.uzlethelyseg-lokacio{
+  background:linear-gradient(to left, rgb(120, 102, 102),  rgb(86, 65, 65));
+  border: 1px solid  rgb(125, 116, 116);
+  padding-top:15px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  width: 390px;
+  padding-left: 1%;
+  height: 60px;
+  white-space: nowrap;
+  margin-top: 20px;
+  text-decoration: none; 
+  font-size: 20px; 
+  box-shadow: 0px 7px 11px rgb(151, 151, 151);  
+  margin-bottom: 10px;
+  font-family: "Josefin Slab", serif;
+}
+.social-media-cim{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 35px;
+    margin-left: 30px;  
+    font-family: "Playfair Display", serif;
+}
+.social-feluletek{
+  border-radius: 24px;
+  width: 350px;
+  height: 330px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction:column;
+  background-color: white;
+  border: 1px solid  rgb(236, 236, 236);
+  box-shadow: 0px 8px 24px rgb(206, 206, 206); 
+  align-items: center;
+  padding: 40px 30px;
+  margin-left: 30px;
+  
+}
+.kovessbe{
+   color:rgb(0, 0, 0);
+  position: absolute;
+  margin-top: -20px;
+  margin-left: 15px;
+  font-size: 29px;
+  font-weight: 300;
+  white-space: normal;
+  font-family: "Dancing Script", cursive;
+}
+
+.instabutton{
+  background:linear-gradient(to left, rgb(94, 93, 93), rgb(60, 60, 60));
+  color:white;
+  padding-top: 10px;
+  padding-left: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 230px;
+  height: 50px;
+  margin-top: 55px;
+  text-decoration: none; 
+  font-size: 17px; 
+  text-align: left;
+  box-shadow: 0px 7px 11px rgb(101, 101, 101);
+  font-family: "Josefin Slab", serif;
+  line-height: 1;
+}
+   
+.facebookbutton{
+    background:linear-gradient(to left, rgb(94, 93, 93), rgb(60, 60, 60));
+    padding-top:12px;
+    padding-left: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    color:white;
+    width: 230px;
+    height: 50px;
+    margin-top: 20px;
+    white-space: nowrap;
+    text-decoration: none !important; 
+    font-size: 17px; 
+    box-shadow: 0px 7px 11px rgb(121, 121, 121); 
+     font-family: "Josefin Slab", serif;
+}
+.mywebpage{
+    background:linear-gradient(to left, rgb(94, 93, 93), rgb(60, 60, 60));
+    padding-top:13px;
+    border-radius: 10px;
+    cursor: pointer;
+    color:white;
+    width: 230px;
+    margin-left: 5px;
+    padding-left: 25px;
+    height: 50px;
+    white-space: nowrap;
+    margin-top: 20px;
+    text-decoration: none; 
+    font-size: 17px; 
+    box-shadow: 0px 7px 11px rgb(121, 121, 121); 
+    font-family: "Josefin Slab", serif;
+}
+
+.uzleti-informaciok-cim{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 60px;
+    margin-left: 30px;   
+    font-family: "Playfair Display", serif;
+}
+.uzleti-informaciok{
+    gap: 30px;
+
+}
+.arlista{
+    background:linear-gradient(to left, rgb(120, 102, 102),  rgb(86, 65, 65));
+    border: 1px solid  rgb(125, 116, 116);
+    padding-top:15px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    width: 390px;
+    padding-left: 2%;
+    height: 60px;
+    white-space: nowrap;
+    margin-top: 10px;
+    margin-left: 30px;
+    text-decoration: none; 
+    font-size: 20px; 
+    box-shadow: 0px 7px 11px rgb(151, 151, 151);
+    font-family: "Josefin Slab", serif;
+}
+.Nyitvatartas{
+    background:linear-gradient(to left, rgb(120, 102, 102),  rgb(86, 65, 65));
+    border: 1px solid  rgb(125, 116, 116);
+    padding-top:15px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    width: 390px;
+    padding-left: 2%;
+    height: 60px;
+    white-space: nowrap;
+    margin-top: 20px;
+    margin-left: 30px;
+    text-decoration: none; 
+    font-size: 20px; 
+    box-shadow: 0px 7px 11px rgb(151, 151, 151);
+     font-family: "Josefin Slab", serif;
+}
+.szolgaltatasok{
+    background:linear-gradient(to left, rgb(120, 102, 102),  rgb(86, 65, 65));
+    border: 1px solid  rgb(125, 116, 116);
+    padding-top:15px;
+    padding-left: 2%;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    width: 390px;
+    height: 60px;
+    white-space: nowrap;
+    margin-top: 20px;
+    margin-left: 30px;
+    text-decoration: none; 
+    font-size: 20px; 
+    box-shadow: 0px 7px 11px rgb(151, 151, 151);
+     font-family: "Josefin Slab", serif;
+}
+.akciok{
+    background:linear-gradient(to left, rgb(120, 102, 102),  rgb(86, 65, 65));
+    border: 1px solid  rgb(125, 116, 116);
+    padding-top:15px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    width: 390px;
+    padding-left: 2%;
+    height: 60px;
+    white-space: nowrap;
+    margin-top: 20px;
+    margin-left: 30px;
+    text-decoration: none; 
+    font-size: 20px; 
+    box-shadow: 0px 7px 11px rgb(151, 151, 151);
+    font-family: "Josefin Slab", serif;
+}
+.Aktualis-tavolletek{
+    background:linear-gradient(to left, rgb(120, 102, 102),  rgb(86, 65, 65));
+    border: 1px solid  rgb(125, 116, 116);
+    padding-top:15px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    width: 390px;
+    padding-left: 2%;
+    height: 60px;
+    white-space: nowrap;
+    margin-top: 20px;
+    margin-left: 30px;
+    text-decoration: none; 
+    font-size: 20px; 
+    box-shadow: 0px 7px 11px rgb(151, 151, 151);
+     font-family: "Josefin Slab", serif;
+}
+.Aktualis-hirek{
+    background:linear-gradient(to left, rgb(120, 102, 102),  rgb(86, 65, 65));
+    border: 1px solid  rgb(125, 116, 116);
+    padding-top:15px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    width: 390px;
+    padding-left: 2%;
+    height: 60px;
+    white-space: nowrap;
+    margin-top: 20px;
+    margin-left: 30px;
+    text-decoration: none; 
+    font-size: 20px; 
+    box-shadow: 0px 7px 11px rgb(151, 151, 151);
+    font-family: "Josefin Slab", serif;
+}
+.Kezeles-elott-utan{
+    background:linear-gradient(to left, rgb(120, 102, 102),  rgb(86, 65, 65));
+    border: 1px solid  rgb(125, 116, 116);
+    padding-top:15px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    width: 390px;
+    padding-left: 2%;
+    height: 60px;
+    white-space: nowrap;
+    margin-top: 20px;
+    margin-left: 30px;
+    text-decoration: none; 
+    font-size: 20px; 
+    box-shadow: 0px 7px 11px rgb(151, 151, 151);
+    font-family: "Josefin Slab", serif; 
+}
+.hazirend{
+    background:linear-gradient(to left, rgb(120, 102, 102),  rgb(86, 65, 65));
+    border: 1px solid  rgb(125, 116, 116);
+    padding-top:15px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    width: 390px;
+    padding-left: 2%;
+    height: 60px;
+    white-space: nowrap;
+    margin-top: 20px;
+    margin-left: 30px;
+    text-decoration: none; 
+    font-size: 20px; 
+    box-shadow: 0px 7px 11px rgb(151, 151, 151);
+    font-family: "Josefin Slab", serif; 
+}
+.bi-clock,
+.bi-hand-index-thumb,
+.bi-megaphone
+{
+  color: #ffffff; 
+  margin-left: 10px;
+}
+.bi-images{
+   color: #ffffff; 
+}
+.portfolio-cim{
+   text-align: center;
+    font-size: 35px;
+    margin-top: 70px;
+    margin-left: 20px;
+    font-family: "Playfair Display", serif;
+}
+.portfolio-bemutatas{
+  font-size: 23px;
+  margin-top: 10px;
+  font-family: "Playfair Display", serif;
+}
+.portfolio{
+    background:linear-gradient(to left, rgb(137, 118, 118),  rgb(86, 65, 65));
+    border: 1px solid  rgb(125, 116, 116);
+    padding-top:15px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    width: 390px;
+    padding-left: 2%;
+    height: 60px;
+    white-space: nowrap;
+    margin-top: 20px;
+    margin-left: 30px;
+    text-decoration: none; 
+    font-size: 20px; 
+    box-shadow: 0px 7px 11px rgb(151, 151, 151);
+     font-family: "Josefin Slab", serif;
+}
+.fizetes-banki-atutalassal-cim{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 50px;
+    margin-left: -10px;
+    font-family: "Playfair Display", serif;
+}
+.rozsa-keret{
+  padding: 30px;
+  margin-top: 30px;
+  width: 400px;
+  height: 230px;
+  border: 1px solid  rgb(0, 0, 0);
+}
+.kedvezmenyezett{
+  font-size: 22px;
+  margin-top: 10px;
+}
+.nev{
+ font-size: 22px; 
+ margin-top: 30px;
+}
+.szamla{
+  font-size: 22px; 
+  margin-top: 10px;
+}
+.szamlaszam{
+ font-size: 22px;  
+ margin-top: 10px;
+}
+
+
+/* Mobil nézet */
+@media screen and (max-width: 540px) {
+  .container {
+    padding: 10px;
+  }
+  
+  .profilkep-image img{
+    height: 150px;
+    width: 160px;
+    margin-left: 0px;
+  }
+  .hr1{
+    margin-left: 0px;
+  }
+  .cegvezeto-nev{
+    font-size: 25px;
+    margin-left: 10px;
+  }
+  .tulajdonos{
+    font-size: 15px;
+    margin-left: 10px;
+  }
+  .cegnev{
+    font-size: 18px;
+    margin-left: 20px;
+  }
+  .kovetes{
+    gap: 35px;
+    margin-bottom: 15px;
+  }
+  .koveto-szamlalo{
+    font-size: 17px;
+  }
+  .kovetes-gomb{
+    font-size: 13px;
+    width: 120px;
+    height: 39px;
+  }
+  .bi-heart-fill{
+    font-size: 11px;
+  }
+  .megosztas-messengeren{
+   padding-left: 11px;
+    padding-top: 9px;
+    height: 37px;
+    width: 110px;
+    font-size: 13px;
+    margin-top:9px;
+    margin-left: -160px;
+    
+  }
+  .Login-registrer{
+    padding-left: 11px;
+    padding-top: 10px;
+    margin-left: 140px;
+    margin-top: -57px;
+    height: 37px;
+    width: 140px;
+    font-size: 13px;
+    margin-bottom: 20px;
+  }
+  .telefonszam{
+    width: 260px;
+    height: 42px;
+    font-size: 15px;
+    margin-left: 10px;
+    padding-top: 10px;
+  }
+  .emailcim{
+    width: 260px;
+    height: 42px;
+    font-size: 15px;
+    margin-left: 10px;
+    padding-top: 10px;
+  }
+  .uzlethelyseg-lokacio{
+    width: 260px;
+    height: 42px;
+    font-size: 15px;
+    margin-left: 10px;
+    padding-top: 10px;
+  }
+ .social-media-cim{
+   font-size: 22px;
+   margin-left: 10px;
+   margin-top: 30px;
+ }
+ .social-feluletek{
+  max-width: 270px;
+  min-width: 290px;
+  margin-left: 10px;
+ }
+ .kovessbe{
+  margin-left: 13px;
+  font-size: 27px;
+ }
+ 
+  .instabutton{
+    width: 200px;
+    height: 43px;
+    font-size: 14px;
+    margin-left:10px;
+    padding-top: 10px;
+    
+  }
+  .bi-instagram{
+   font-size: 22px;
+   margin-left: -110px;
+   margin-top: -10px;
+  }
+  .facebookbutton{
+     width: 200px;
+    height: 43px;
+    font-size: 14px;
+    margin-left:7px;
+    padding-top: 10px;
+  }
+  .bi-facebook{
+   font-size: 22px;
+   margin-left: -170px;
+  }
+  .mywebpage{
+    width: 200px;
+    height: 43px;
+    font-size: 14px;
+    margin-left:10px;
+    padding-top: 10px;
+   
+  }
+  .bi-globe2{
+  font-size: 22px;
+  margin-left: -175px;
+  }
+  .uzleti-informaciok-cim{
+    font-size: 22px;
+    margin-left: 10px;
+    margin-top: 40px;
+  }
+  .arlista{
+    width: 260px;
+    height: 42px;
+    font-size: 15px;
+    margin-left: 10px;
+    padding-top: 10px;
+    
+  }
+  .Nyitvatartas{
+    width: 260px;
+    height: 42px;
+    font-size: 15px;
+    margin-left: 10px;
+    padding-top: 10px;
+  }
+  .szolgaltatasok{
+    width: 260px;
+    height: 42px;
+    font-size: 15px;
+    margin-left: 10px;
+    padding-top: 10px;
+  }
+  .akciok{
+    width: 260px;
+    height: 42px;
+    font-size: 15px;
+    margin-left: 10px;
+    padding-top: 10px;
+  }
+  .Aktualis-tavolletek{
+    width: 260px;
+    height: 42px;
+    font-size: 15px;
+    margin-left: 10px;
+    padding-top: 10px;
+  }
+  .Aktualis-hirek{
+    width: 260px;
+    height: 42px;
+    font-size: 15px;
+    margin-left: 10px;
+    padding-top: 10px;
+  }
+  .Kezeles-elott-utan{
+    width: 260px;
+    height: 42px;
+    font-size: 15px;
+    margin-left: 10px;
+    padding-top: 10px; 
+  }
+  .hazirend{
+    width: 260px;
+    height: 42px;
+    font-size: 15px;
+    margin-left: 10px;
+    padding-top: 10px; 
+  }
+  .portfolio-cim{
+    font-size: 22px;
+    margin-left: 20px;
+    margin-top: 40px;
+  }
+  .portfolio-bemutatas{
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .portfolio{
+   width: 260px;
+    height: 42px;
+    font-size: 15px;
+    margin-left: 10px;
+    padding-top: 10px;
+  }
+  .fizetes-banki-atutalassal-cim{
+    font-size: 22px;
+    margin-left: 10px;
+  }
+  .rozsa-keret{
+    width: 300px;
+    height: 145px;
+   
+  }
+  .kedvezmenyezett{
+    font-size: 15px;
+    margin-left: 0px;
+    margin-top: -10px;
+  }
+  .nev{
+    font-size: 15px;
+    margin-top: 20px;
+    white-space: nowrap;
+   
+  }
+  .szamlaszam{
+    font-size: 15px;
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  .szamla{
+    font-size: 15px;
+    white-space: nowrap;
+    
+  }
+}
