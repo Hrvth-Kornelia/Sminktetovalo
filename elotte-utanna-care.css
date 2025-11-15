@@ -1,0 +1,58 @@
+body{
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    width: 100%;
+    font-size: 20px;
+    height: 43px;
+    background-color: rgb(235, 235, 235);
+    color: rgb(126, 114, 114);
+    box-shadow: 0px 3px 12px rgb(125, 125, 125);
+    border-bottom: 1px solid rgb(242, 242, 242);
+    justify-content: center;
+    z-index: 1;
+    
+}
+.bi-list-task{
+ margin-left: 10px; 
+ color: rgb(126, 114, 114);  
+ font-size: 24px;
+ margin-top: 2px;
+ margin-left: 5px;
+ position: absolute;
+ z-index: 2;
+}
+.care-elotte-utana{
+display: flex;
+text-align: center;
+justify-content: center;
+padding: 20px;
+margin-top: 90px;
+}
+.care-elotte-utana img{
+box-shadow:
+0px 10px 12px rgb(75, 75, 75);    
+margin: 0 auto;
+display: block;
+height: auto;
+max-width: 96%;
+}
+a{
+ text-decoration: none;
+}
+
+@media screen and (max-width: 750px) {
+.care-elotte-utana img {
+    max-height: 90vh;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;
+}
+.care-elotte-utana{
+    margin-top: 30px;
+    
+} 
+}
