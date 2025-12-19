@@ -1,0 +1,264 @@
+body{
+  margin: 0;
+}
+.navbar{
+ width: 100%;
+ font-size: 20px;
+ height: 43px;
+ background-color: rgb(235, 235, 235);
+ padding-top: 4px;
+ color: rgb(173, 141, 141);
+ box-shadow: 0px 3px 12px rgb(21, 21, 21);
+ border-bottom: 1px solid rgb(242, 242, 242);
+ justify-content: center;
+ z-index: 0;
+}
+.bi-list-task{
+ color: rgb(126, 114, 114);  
+ position: absolute;
+ z-index: 1;
+ font-size: 24px;
+ margin-top: 2px;
+ margin-left: 5px;
+}
+.main-wallpaper img {
+  width: 100%;
+  height: 600px;
+  display: block;
+  filter: brightness(0.5);
+}
+.main-wallpaper{
+  position: relative;
+  width: 100%;
+  z-index: 0;
+}
+.main-wallpaper-szoveg{
+  position: absolute;
+  display: flex;
+  z-index: 1;
+  top: 32%;
+  left: 22%;
+  font-size: 42px;
+  width: 840px;
+  text-align: center;
+  color: rgb(218, 218, 218);
+  font-family: "Josefin Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+}
+.main-wallpaper-szoveg-alcimkek {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(-50%);
+  left: 50%;
+  z-index: 2;
+  top: 78%;
+  font-size: 25px;
+  color: rgb(218, 218, 218);
+  font-family: "Josefin Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+}
+.bi-circle-fill{
+  font-size: 10px;
+  margin-left: 15px;
+  margin-right: 6px;
+}
+.bevezeto-szoveg{
+  font-size: 19px;
+  margin-top: 40px;
+  width: 730px;
+  display: flex;
+  position: absolute;
+  text-align: center;
+  left: 25%;
+  font-family: "Josefin Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+.backgroundcolor1{
+  width: 100%;
+  height: 150px;
+  background-color: rgb(223, 216, 201);
+}
+.rolam-kep img{
+  max-width: 650px;
+  width: 100%;
+  height: auto;
+}
+.rolam-kep{
+  margin-top: 30px;
+  margin-left: 100px;
+  width: 100%;
+}
+.rolam-cim{
+  font-size:33px;
+  margin-left: 850px;
+  position: absolute;
+  display: flex;
+  margin-top: 90px;
+  font-family: "Josefin Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+.rolam-doboz{
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+.rolam-bemutatkozo-szoveg-tartalom{
+  max-width: 500px;
+  width: 100%;
+  margin-top: 150px;
+  margin-right: 180px;
+  font-size: 20px;
+  font-family: "Josefin Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+.festekanyag-cim{
+  margin-left: 170px;
+  margin-top: 20px;
+  display: flex;
+  position: absolute;
+  font-size: 33px;
+}
+.festekanyag-doboz{
+  display: flex;
+  flex-direction: row;
+  margin-top:150px ;
+  margin-left: 150px;
+  margin-bottom: 40px;
+}
+.festekanyag-szoveg-tartalom{
+  max-width: 600px;
+  width: 100%;
+  margin-top: 50px;
+  font-size: 20px;
+  margin-left: 160px;
+  font-family: "Josefin Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal; 
+}
+.festekanyag-kep img{
+  width: 100%;
+  height: 370px;
+  max-width: 540px;
+  margin-top: -50px;
+}
+.wallpaper img{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.wallpaper{
+  display: block;
+  position: relative;
+}
+
+@media screen and (max-width:500px) {
+  
+  .main-wallpaper img{
+    width: 100%;
+    height: 22vh;
+    height: clamp(20vh, 30vh, 40vh);
+    object-fit: cover;
+    object-position: left center;
+  }
+  .main-wallpaper-szoveg{
+    font-size: clamp(13px, 3.4vw, 18px);
+    color: rgb(255, 255, 255);
+    width: 80%;
+    left: 12%;
+  }
+  .main-wallpaper-szoveg-alcimkek{
+    justify-content: center;
+    align-items: center;
+    font-size: clamp(8px, 2.9vw, 13px);
+  }
+  .bevezeto-szoveg{
+    font-size: clamp(11px, 2.5vw, 14.5px);
+    width: 90%;
+    top: 32.5%;
+    left: 5%;
+  }
+  .backgroundcolor1{
+    max-height: 13vh;
+    width: 100%;
+  }
+  .rolam-doboz{
+    flex-direction: column;
+    margin-top: 70px;
+  }
+  .rolam-kep img{
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .rolam-kep{
+    margin-left: 0px;
+    margin: 0 auto;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .rolam-cim{
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    margin-left: 0px;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 39%;
+    font-size: clamp(22px, 3.3vw, 22.5px);
+    color: rgb(109, 91, 66);
+
+  }
+  .rolam-bemutatkozo-szoveg-tartalom{
+  font-size: clamp(15px, 2.6vw, 20.5px);
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-top: 20px;
+  text-align: center;
+  }
+  .festekanyag-cim{
+    margin-left: 0px;
+    margin-top: 20px;
+    white-space: nowrap;
+    transform: translateX(-50%);
+    left: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: clamp(21px, 3.3vw, 22.5px);
+    color: rgb(109, 91, 66);
+  }
+  .festekanyag-doboz{
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 120px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  .festekanyag-szoveg-tartalom{
+    font-size: clamp(15px, 2.6vw, 20.5px);
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 0;
+  }
+  .festekanyag-kep img{
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .wallpaper img{
+    height: 15vh;
+    width: 100%;
+  }
+  
+}
