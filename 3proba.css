@@ -1,0 +1,478 @@
+@font-face {
+  font-family: "DidotPro";
+  src:
+    url("webfont-type/font.woff2") format("woff2"),
+    url("webfont-type/font.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+body{
+    margin: 0;
+    -webkit-font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.profilkep-image img{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.profilkep-image{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding-bottom: 75px;
+     margin-left: -40px;
+     margin-top: -300px;
+} 
+.fekete-hatter{
+     width: 100%;
+     height: 310px;
+     display: flex;
+     background-color: #0f0f0f;
+}
+.cegvezeto-nev{
+     font-size: 34px;
+     margin-top: -140px;
+     font-family:"DidotPro",serif;
+     font-style: normal;
+     font-weight: 100;
+     color: #1d1d1d;
+}
+.cegnev{
+     font-size: 19px;
+     font-family:"DidotPro",serif;
+     font-style: normal;
+     margin-bottom: 5px;
+     color: #1d1d1d;
+}
+
+.kovetes{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: row;
+     gap:20px;
+     margin-right: 5px;
+     margin-top: 15px;
+}
+.kovetes-gomb{
+     height: 43px;
+     width: 170px;
+     text-align: center;
+     padding-top: 10px;
+     padding-left: 7px;
+     font-size: 18px;
+     border-radius: 7px;
+     border: 2.1px solid transparent;
+     background: linear-gradient(135deg,#727272, #6c6c6c) padding-box,
+     linear-gradient(135deg, #c9c9c9
+    ,#e0c7bd,#6f6f6f)
+     border-box;
+     cursor: pointer;
+     color:  #fff9f9;
+     letter-spacing: 0.04em;
+     font-family:"DidotPro",serif;
+     background: linear-gradient(to bottom,
+     rgba (255,255,255,.18)0%
+     rgba(255,255,255,.06) 35%
+     rgba(0,0,0,.06) 100%
+     );
+     box-shadow: 
+     inset 0 2px 3px rgba(84, 84, 84, 0.35),
+     inset 0 2px 1px rgba(67, 67, 67, 0.884),
+     0 1.3px 2.0px rgba(39, 39, 39, 0.444);
+}
+.bi-heart-fill{
+     color:#d5bfaf;
+     padding-left: 5px;
+     font-size: 0.9em;
+}
+.koveto-szamlalo{
+     color:#bcb5b5;
+     font-size: 21px;
+     margin-top: 0px;
+}
+.social-media-button{
+     display: flex;
+     align-items: flex-start;
+     gap: 30px;
+     margin-top: 30px;
+}
+.instabutton,
+.facebookbutton,
+.megosztas-messengeren{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: 2.6px solid transparent;
+    background:linear-gradient(135deg, #ffffff,#ffffff) padding-box,
+    linear-gradient(135deg,
+     #e8e8e8
+    ,#a6a5a5,#2e2e2e)
+     border-box;
+     display: flex;
+     align-items: center;
+     justify-content: center; 
+     text-decoration: none;
+     background: linear-gradient(to bottom,
+     rgba (255,255,255,.18)0%
+     rgba(255,255,255,.06) 35%
+     rgba(0,0,0,.06) 100%
+     );
+     box-shadow: 
+     inset 0 2px 3px rgba(84, 84, 84, 0.35),
+     inset 0 2.4px 1px rgba(35, 35, 35, 0.884),
+     0 1.3px 2.0px rgba(39, 39, 39, 0.444);
+}
+.bi-instagram,
+.bi-facebook,
+.bi-globe2{
+     font-size: 24px;
+     display: flex;
+     justify-content: center;
+     background: linear-gradient(180deg,#ddc7b6 ,#bba696,#a19083);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.button-name{
+     display: flex;
+     align-items: flex-start;
+     gap: 28px;
+     font-size: 14px;
+     justify-content: center;
+     margin-top: 5px;
+     color:#3e3e3e;;
+     margin-bottom: -20px;
+     font-family:"DidotPro",serif;
+}
+.telefonszam,
+.emailcim{
+     border: 3.4px solid transparent;
+     background: linear-gradient(135deg,#ffffff, #ffffff) padding-box,
+     linear-gradient(135deg, #cdb9a9
+    ,#ac9b8f,#bdaa9c)
+     border-box;
+     background: linear-gradient(to bottom,
+     rgba (255,255,255,.18)0%
+     rgba(255,255,255,.06) 35%
+     rgba(0,0,0,.06) 100%
+     );
+     box-shadow: 
+     inset 0 1px 0 rgba(84, 84, 84, 0.35),
+     inset 1.0px 1.7px 4px rgba(32, 32, 32, 0.873),
+     0 2px 3px rgba(29, 29, 29, 0.489);
+     cursor: pointer;
+     color:  #676767;
+     letter-spacing: 0.05em;
+     width: 360px;
+     height: 50px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 15px;
+     font-family:"DidotPro",serif;
+     margin-bottom: 15px;
+     padding-top: 4px;
+}
+.telefonszam{
+     margin-top: 30px;
+}
+.bi-envelope-at-fill{
+    padding-left: 15px;
+    margin-top: 5px;
+    background: linear-gradient(180deg, #a0a0a0,#6a6a6a,#313131);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.bi-telephone{
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-top: 5px;
+    background: linear-gradient(180deg, #a0a0a0,#6a6a6a,#313131);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.bi-shop{
+     padding-right: 5px;
+     padding-left: 5px;
+     margin-top: 5px;
+     background: linear-gradient(180deg, #a0a0a0,#6a6a6a,#313131);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+}
+a{
+    text-decoration: none !important;
+}
+.szolgaltatasok,
+.Kezeles-elott-utan{
+     border: 3.0px solid transparent;
+     background: linear-gradient(135deg,#f3f3f3, #cecece) padding-box,
+     linear-gradient(135deg, #979797
+    ,#b5b5b5,#4f4f4f)
+     border-box;
+     background: linear-gradient(to bottom,
+     rgba (255,255,255,.18)0%
+     rgba(255,255,255,.06) 35%
+     rgba(0,0,0,.06) 100%
+     );
+     box-shadow: 
+     inset 0 1px 0 rgba(84, 84, 84, 0.35),
+     inset 0 1px 1px rgba(0, 0, 0, 0.66),
+     0 1.5px 3px rgba(47, 47, 47, 0.895);
+     padding-top:14px;
+     border-radius: 10px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding-bottom: 10px;
+     cursor: pointer;
+     color:  #181818;
+     width: 360px;
+     height: 50px;
+     white-space: nowrap;
+     margin-top: 20px;
+     font-size: 16px; 
+     font-family:"DidotPro",serif;
+     text-decoration: none !important;
+}
+.uzlethelyseg-lokacio,
+.arlista,
+.Nyitvatartas,
+.akciok,
+.Aktualis-tavolletek,
+.Aktualis-hirek,
+.hazirend,
+.portfolio{
+     border: 2.6px solid transparent;
+     background: linear-gradient(135deg,#2b2b2b, #1c1c1c) padding-box,
+     linear-gradient(135deg, #c5b3a3
+    ,#c3b1a4,#b4a294)
+     border-box;
+     background: linear-gradient(to bottom,
+     rgba (255,255,255,.18)0%
+     rgba(255,255,255,.06) 35%
+     rgba(0,0,0,.06) 100%
+     );
+     box-shadow: 
+     inset 0 1px 0 rgba(35, 35, 35, 0.35),
+     inset 0 1px 1px rgba(0, 0, 0, 0.66),
+     0 2px 3px rgba(15, 15, 15, 0.827);
+     cursor: pointer;
+     border-radius: 10px;
+     color:  #dddddd;
+     cursor: pointer;
+     padding-top:14px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding-bottom: 10px;
+     cursor: pointer;
+     letter-spacing: 0.06em;
+     width: 360px;
+     height: 50px;
+     white-space: nowrap;
+     margin-top: 20px;
+     font-size: 16px; 
+     font-family:"DidotPro",serif;
+     text-decoration: none !important;  
+}
+.portfolio{
+     margin-bottom: 50px;
+}
+ .bi-cash-stack,
+ .bi-clock,
+ .bi-megaphone,
+ .bi-bell,
+ .bi-x-square,
+ .bi-house,
+ .bi-images{
+     background: linear-gradient(180deg, #d1d1d1,#959595,#555555);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+     font-size: 0.9em;
+     padding-left: 15px;
+ }
+ .bi-hand-index-thumb,
+ .bi-file-text{
+     background: linear-gradient(180deg, #898989,#4e4e4e,#404040);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-left: 20px;
+ }
+  
+.bi-telephone,
+.bi-envelope-at-fill,
+.bi-shop{
+      margin-left: 5px;
+}
+.uzleti-informaciok-cim{
+      text-align: center;
+      margin-top: 40px;
+      font-size: 25px;
+      color: #816b59;
+      font-family:"DidotPro",serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.portfolio-cim{
+      text-align: center;
+      margin-top: 40px;
+      font-size: 30px;
+      font-family: "Playfair Display", serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;   
+}
+.portfolio-bemutatas{
+      text-align: center;
+      margin-top: 10px;
+      font-size: 22px;
+      display: flex;
+      justify-content: center;
+      align-items: center;   
+}
+
+
+
+
+
+
+@media screen and (min-width: 300px) and (max-width:440px) {               
+.container{
+     padding-left: 25px;
+     padding-right: 25px;
+}
+  .profilkep-image{
+     object-fit: cover;
+     margin-bottom: 20px;
+     margin-top:-220px;
+     margin-right: 15px;
+     margin-left: 0;
+  }
+  .profilkep-image img{
+     width: 365px;
+     height: 365px;
+  }
+  .cegvezeto-nev{
+     white-space: nowrap;
+     display: flex;
+     justify-content: center; 
+     font-size: 27px;
+  }
+  .cegnev{
+     white-space: nowrap;
+     display: flex;
+     justify-content: center; 
+     font-size: 17px
+  }
+  .tulajdonos-felirat{
+     white-space: nowrap;
+     display: flex;
+     justify-content: center; 
+     font-size: 14px
+  }
+  .salon-name{
+     white-space: nowrap;
+     display: flex;
+     justify-content: center; 
+     font-size: 16px
+  }
+  .fekete-hatter{
+     height: 180px;
+     width: 100%;
+  }
+ .kovetes{
+     margin-top: 10px;
+     gap: 15px;
+     width: 100%;
+     max-width: 240px;
+ }
+ .kovetes-gomb{
+     height: 39px;
+     width: 100%;
+     font-size: 14.5px;
+ }
+ .bi-heart-fill{
+     font-size: 14px;
+ }
+
+ .koveto-szamlalo{
+     font-size: 16.5px;
+     white-space: nowrap;
+ }
+
+ .instabutton,
+ .facebookbutton,
+ .megosztas-messengeren{
+     width: 55px;
+     height: 55px;
+}
+.button-name{
+     font-size: 13.5px;
+     gap: 25px;
+}
+ .bi-instagram,
+ .bi-facebook,
+ .bi-globe2{
+     font-size: 23px;
+     padding-top: 5px;
+}
+ .telefonszam,
+ .emailcim{
+     height: 45px;
+     width: 85%;
+     font-size: 14.5px;
+ }
+ 
+ .elerhetosegek-cim{
+     white-space: nowrap;
+     font-size: 22px;
+ }
+
+.uzlethelyseg-lokacio,
+.arlista,
+.Nyitvatartas,
+.szolgaltatasok,
+.akciok,
+.Aktualis-tavolletek,
+.Aktualis-hirek,
+.Kezeles-elott-utan,
+.hazirend,
+.portfolio{
+     width: 90%;
+     height: 45px;
+     padding-bottom: 15px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 22px;
+     font-size: 14.5px;   
+}
+.telefonszam{
+     margin-top: 25px;
+}
+.uzleti-informaciok-cim{
+     white-space: nowrap;
+     font-size: 22px;
+     margin-top: 20px;
+}
+.portfolio-cim{
+     white-space: nowrap;
+     font-size: 22px;
+}
+.portfolio-bemutatas{
+     white-space: nowrap;
+     font-size: 17px;
+} 
+
+
+}
