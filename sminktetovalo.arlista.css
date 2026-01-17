@@ -1,8 +1,8 @@
 body{
     background-color: #ffffff;
     margin: 0;
-    align-items: center;
-    justify-content: center;
+    padding: 0;
+    min-height: 100%;
     
 }
 .navbar{
@@ -10,11 +10,12 @@ body{
     font-size: 20px;
     height: 43px;
     background-color: rgb(235, 235, 235);
-    padding-right:170px;
     padding-top: 4px;
     color: rgb(126, 114, 114);
     box-shadow: 0px 3px 12px rgb(161, 161, 161);
     border-bottom: 1px solid rgb(242, 242, 242);
+    justify-content: center;
+    z-index: 0;
     
 }
 .arlista{
@@ -33,26 +34,25 @@ height: auto;
 max-width: 96%;
 }
 .bi-list-task{
- margin-left: 10px; 
+ margin-left: 5px; 
  color: rgb(126, 114, 114);  
+ position: absolute;
+ z-index: 1;
+ font-size: 24px;
+ margin-top: 2;
 }
 a{
  text-decoration: none;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 576px) {
 .arlista img {
-    max-height: 90vh;
-    width: auto;
-    display: block;
-    margin: 0 auto;
-    object-fit: contain;
+   width: 98%;
+   height: auto;
     
-  
-
 }
 .arlista{
-    margin-top: 30px;
+    margin-top: 40px;
     
 }
 
