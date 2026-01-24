@@ -1,0 +1,620 @@
+@font-face {
+  font-family: "DidotPro";
+  src:
+    url("webfont-type/font.woff2") format("woff2"),
+    url("webfont-type/font.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+body{
+  margin: 0;
+}
+.navbar{
+ width: 100%;
+ font-size: 20px;
+ height: 50px;
+ background-color: rgb(221, 214, 214);
+ padding-top: 4px;
+ color: rgb(73, 73, 73);
+ box-shadow: 0px 3px 12px rgb(21, 21, 21);
+ border-bottom: 1px solid rgb(242, 242, 242);
+ justify-content: center;
+ z-index: 0;
+}
+.bi-list-task{
+ color: rgb(126, 114, 114);  
+ position: absolute;
+ z-index: 1;
+ font-size: 24px;
+ margin-top: 2px;
+ margin-left: 5px;
+}
+.main-wallpaper img {
+  width: 100%;
+  height: 730px;
+  filter: brightness(0.5) ;
+}
+.main-wallpaper{
+  position: relative;
+  display: flex;
+  width: 100%;
+  z-index: 0;
+}
+.backgroundcolor2{
+  width: 100%;
+  margin-top: -90px;
+  background-color: rgb(248, 246, 242);
+}
+.main-wallpaper-szoveg{
+  position: absolute;
+  display: flex;
+  z-index: 1;
+  margin-top: 14%;
+  transform: translateX(-50%);
+  left: 50%;
+  font-size: 40px;
+  width: 870px;
+  color: rgb(237, 237, 237);
+  font-family:"DidotPro",serif;
+  text-align: center;
+}
+.bevezeto-szoveg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    background-color: rgb(236, 218, 215);
+    width: 100%;
+    max-height: 200px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.bevezeto-szoveg-cim{
+    font-size: 31px;
+}
+.bevezeto-szoveg-leiras{
+    max-width: 530px;
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
+}
+.rolam-doboz{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    margin-left: 10%;
+    margin-top: 80px;
+}
+.rolam-doboz-kep img{
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 4px 8px grey;
+}
+.rolam-cim{
+    font-size: 34px;
+    margin-top: 20px;
+}
+.rolam-bemutatkozo-szoveg-tartalom{
+    max-width: 630px;
+    font-size: 17px;
+    margin-top: 30px;
+    display: block;
+}
+.hogyan-zajlik-egyalkalom-cim{
+  white-space: nowrap;
+  margin-top: 40px;
+  font-size: 26px;
+  margin-left: 11%;
+  font-family:"DidotPro",serif;
+  color: #fffbf7;
+}
+.hogyan-zajlik-egyalkalom-doboz{
+  background-color: rgb(170, 160, 152);
+  width: 100%;
+  height: 450px;
+  display: flex;
+  position: relative;
+  margin-top: 80px;
+}
+.hogyan-zajlik-egyalkalom-leiras {
+  font-size: 18.5px;
+  color: #fffbf7;
+  font-family:"DidotPro",serif;
+  display: flex;
+  box-sizing: border-box;
+  max-width: 600px;
+  width: 100%;
+  margin-top: -20px;
+  margin-left: 8%;
+  margin-top: 30px;
+  
+}
+.hogyan-zajlik-egyalkalom-tartalom ul{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.hogyan-zajlik-egyalkalom-kep img {
+  max-width: 650px;
+  height: 450px;
+}
+.szolgaltatasok-cim{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family:"DidotPro",serif;
+  font-size: 34px;
+  margin-top: 30px;
+  padding-top: 70px;
+  margin-bottom: 70px;
+  color: rgb(109, 91, 66);
+}
+.szolgaltatas-cim{
+  font-family:"DidotPro",serif;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  font-size: 25px;
+  margin-bottom: 30px;
+  color: rgb(109, 91, 66);
+}
+.szolgaltatas-leiras{
+  font-family:"DidotPro",serif;
+  text-align: center;
+  font-style: normal; 
+  margin-top: 15px;
+  font-size: 18px;
+  margin-top: 40px;
+  max-width: 300px;
+  color: rgb(109, 91, 66);
+}
+.szolgaltatasok{
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.szolgaltatas-kartya{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  max-width: 270px;
+  width: 100%;
+  border-radius: 16px;
+  background-color: rgb(249, 246, 239);
+  box-shadow: 0px 10px 30px rgba(94, 94, 94, 0.9);
+  height: 330px;
+  margin-bottom: 70px;
+  box-sizing: border-box;
+  flex: 0 0 320px;
+}
+.szolgaltatas-kep{
+  width: 100%;
+  margin-top: auto;
+}
+.szolgaltatas-kep img{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+.technikak-cim{
+  font-family:"DidotPro",serif;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  padding-top: 50px;
+  font-size: 30px;
+  margin-bottom: 40px;
+  color: rgb(109, 91, 66);
+  text-decoration: underline;
+  text-decoration-thickness: 1.8px;
+  text-underline-offset: 2.7px;
+  text-decoration-color: #B8A47E;
+}
+.technikak-alcim{
+  font-family:"DidotPro",serif;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  font-size: 25px;
+  margin-bottom: 100px;
+  color: #636363;
+}
+.technika-ajak-kartya,
+.technika-szeplo-kartya{
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  margin-left: 50px;
+  margin-bottom: 30px;
+}
+.technika-szemhej-kartya,
+.technika-szemoldok-kartya{
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 50px;
+  gap: 40px;
+  margin-bottom: 30px;
+}
+
+.szemoldoktetovalas-technika-kep img,
+.szemhejtetovalas-technika-kep img,
+.ajaktetovalas-technika-kep img,
+.szeplotetovalas-technika-kep img{
+  max-width: 560px;
+  width: 90%;
+  height: 300px;
+  border-radius: 7px;
+  object-fit: cover;
+  display: block;
+  box-shadow: 0 10px 16px rgb(159, 159, 159)
+}
+.szemoldoktetovalas-technika-cim,
+.ajaktetovalas-technika-cim,
+.szemhejtetovalas-technika-cim,
+.szeplotetovalas-technika-cim {
+  font-size: 28px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  display: flex;
+  color: #6d5b42;
+  text-decoration: underline;
+  text-decoration-color: #b8a47e;
+  text-underline-offset: 6px;
+  font-family:"DidotPro",serif;
+}
+.bi-check2-circle{
+  margin-left: -35px;
+  padding-right: 10px;
+}
+.technika-fajta-cimek {
+  display: flex;
+  font-weight: 600;
+  font-size: 23px;
+  color: #b8a47e;
+  line-height: 1.2;
+  margin-bottom: 6px;
+  
+}
+.ajaktetovalas-technika-leiras,
+.szemhejtetovalas-technika-leiras,
+.szeplotetovalas-technika-leiras,
+.szemoldoktetovalas-technika-leiras{
+  font-size: 17px;
+  max-width: 800px;
+  width: 100%;
+  margin-bottom: 40px;
+  margin-top: -20px;
+  margin-left: 35px;
+  list-style: none;
+  line-height: 1.2;
+
+}
+
+@media screen and (max-width:610px) {
+  
+  .main-wallpaper img{
+    width: 100%;
+    height: clamp(25vh, 35vh, 44vh);
+    object-fit: cover;
+    object-position: 70%;
+  }
+  .main-wallpaper-szoveg{
+    font-size: clamp(21px, 4.7vw, 23px);
+    color: rgb(255, 255, 255);
+    width: 90%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    animation: fadein 1.6s ease-out forwards;
+  }
+  @keyframes fadein{
+    from{
+      opacity: 0;
+    }
+    to{
+      opacity: 1;
+    }
+  }
+  .bevezeto-szoveg{
+    width: 100%;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  .bevezeto-szoveg-cim{
+     font-size: clamp(19px, 4.7vw, 24px);
+     text-align: center;
+     padding-bottom: 10px;
+     width: 90%;
+     margin: 0;
+  }
+  .bevezeto-szoveg-leiras{
+      font-size: clamp(13px, 2.8vw, 16px);
+      padding-left: 15px;
+      padding-right: 15px;
+  }
+  
+
+.rolam-cim{
+  margin-top: -50px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: clamp(25px, 5.3vw, 29px) ;
+}
+  .rolam-doboz{
+    flex-direction: column;
+    margin-left: 0;
+    margin-top: 30px;
+  }
+  .rolam-doboz-kep img{
+    width: 85%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+  }
+  .rolam-doboz-kep{
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: center;
+    opacity: 0;
+    transform: translateY(30px);
+    animation: kep-fel 0.9s ease-out forwards;
+  }
+  @keyframes kep-fel{
+    from{
+      opacity:0;
+      transform: rotateY(30px);
+    }
+    to{
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .rolam-bemutatkozo-szoveg-tartalom{
+    width: 90%;
+    height: auto;
+    margin: 30px auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    font-size: clamp(14px, 3.2vw, 18px) ;
+    opacity: 0;
+    transform: translateY(30px);
+    animation: szoveg-fel 1.8s cubic-bezier(0.22,1.56,0.64,1) forwards;
+    animation-timeline: view();
+    animation-range: entry 10% cover 30%;
+  }
+  @keyframes szoveg-fel{
+    from{
+      opacity:0;
+      transform: rotateY(30px);
+    }
+    to{
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .hogyan-zajlik-egyalkalom-cim{
+    font-size: clamp(19px, 4.5vw, 23px);
+    text-align: center;
+    margin-left: 0;
+    margin-top: 20px;
+    padding-bottom: 35px;
+  }
+  .hogyan-zajlik-egyalkalom-leiras li{
+     font-size: clamp(15px, 3.8vw, 17px);
+     line-height: 1.5;
+     text-align: center;
+  }
+  .hogyan-zajlik-egyalkalom-leiras{
+    list-style: none;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 520px;
+  }
+  .hogyan-zajlik-egyalkalom-doboz{
+    width: 100%;
+    display: flex;
+    z-index: 0;
+    position: relative;
+    margin-top: 20px;
+  }
+.hogyan-zajlik-egyalkalom-kep {
+  position: absolute;
+  inset: 0;
+  margin: 0;
+}
+.hogyan-zajlik-egyalkalom-kep img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.45);
+}
+.hogyan-zajlik-egyalkalom-tartalom{
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  padding: 0;
+  z-index: 1;
+  position: relative;
+  color:#ffffff;
+  background: transparent;
+}
+
+
+.szolgaltatasok-cim{
+    font-size: clamp(25px, 5.3vw, 35px);
+    margin-top:-20px ;
+    margin-bottom: 50px;
+  }
+  .szolgaltatas-szoveg{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+  }
+  .szolgaltatas-cim{
+    font-size: clamp(17px, 3.7vw, 26px);
+    margin-top: 30px;
+    padding-left: 40px;
+    margin-bottom: 20px;
+  }
+  .szolgaltatas-leiras{
+    font-size: clamp(15.5px, 3.4vw, 18.5px);
+    margin-top: 0px;
+    margin-left: 30px;
+    width: 85%;
+  }
+  .szolgaltatasok{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    padding-left: 22px;
+    padding-right: 22px;
+    margin-top: 0px;
+    gap: 15px;
+  }
+  .szolgaltatas-kartya{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 420px;
+    width: 100%;
+    height: 140px;
+    gap: 35px;
+    flex: none;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    opacity: 0;
+    transform: translateX(-24px);
+    animation: balrol-be 3.5s cubic-bezier(0.15,1,0.3,1) forwards;
+    animation-timeline: view();
+    animation-range: entry 10% cover 30%;
+  }
+  @keyframes balrol-be{
+    from{
+      opacity: 0;
+      transform: translateX(-24px);
+    }
+    to{
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  .szolgaltatas-kep img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  .szolgaltatas-kep{
+    width: 45%;
+    height: 100%;
+    flex-shrink: 0;
+  }
+  .backgroundcolor2{
+    margin-top: 0;
+  }
+  .technikak-cim{
+    font-size:clamp(26px,5.5vw,39px);
+    margin-bottom: 20px;
+  }
+  .technikak-alcim{
+     font-size: clamp(18px, 3.4vw, 23px);
+     padding-left: 15px;
+     padding-right: 15px;
+     text-align: center;
+     margin-bottom: 40px;
+  }
+  .technika-doboz{
+    display: flex;
+    flex-direction: column;
+  }
+  .technika-ajak-kartya,
+  .technika-szemoldok-kartya,
+  .technika-szemhej-kartya,
+  .technika-szeplo-kartya{
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+    margin: 0;
+  }
+  .technika-szeplo-kartya{
+    margin-bottom: 25px;
+  }
+  .szemoldoktetovalas-technika-kep,
+  .szeplotetovalas-technika-kep ,
+  .szemhejtetovalas-technika-kep ,
+  .ajaktetovalas-technika-kep {
+    width: 85%;
+    max-width: 560px;
+    height: auto;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } 
+  .szemoldoktetovalas-technika-kep img,
+  .szeplotetovalas-technika-kep img,
+  .szemhejtetovalas-technika-kep img,
+  .ajaktetovalas-technika-kep img {
+    width: 80% !important;
+    max-width: 560px !important;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+  }
+  .szemoldoktetovalas-technika-cim,
+  .szemhejtetovalas-technika-cim,
+  .ajaktetovalas-technika-cim,
+  .szeplotetovalas-technika-cim{
+    display: flex;
+    font-size:clamp(26px,5.3vw,37px);
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+  
+  }
+  .szemoldoktetovalas-technika-leiras ,
+  .szemhejtetovalas-technika-leiras ,
+  .ajaktetovalas-technika-leiras ,
+  .szeplotetovalas-technika-leiras {
+    width: 85%;
+    max-width: 520px;
+    font-size: clamp(15px,3.2vw,22px);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    list-style: none;
+    text-align: center;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+  }
+  .technika-fajta-cimek{
+    font-size: clamp(16px,3.3vw,25px);
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+}
