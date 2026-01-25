@@ -344,8 +344,6 @@ html{
     text-align: center;
     opacity: 0;
     animation: fadein 1.6s ease-out forwards;
-    margin-top: 12%;
-    margin-bottom: 18%;
   }
   @keyframes fadein{
     from{
