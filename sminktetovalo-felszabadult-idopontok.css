@@ -1,0 +1,152 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+.navbar{
+    width: 100%;
+    font-size: 20px;
+    height: 43px;
+    background-color: rgb(235, 235, 235);
+    padding-top: 4px;
+    color: rgb(126, 114, 114);
+    box-shadow: 0px 3px 12px rgb(161, 161, 161);
+    border-bottom: 1px solid rgb(242, 242, 242);
+    justify-content: center;
+    z-index: 0;
+}
+.bi-list-task{
+    color: rgb(126, 114, 114);  
+    position: absolute;
+    z-index: 1;
+    font-size: 24px;
+    margin-top: 2px;
+    margin-left: 5px;
+}
+a{
+    text-decoration: none;
+}
+.mainwallpaper{
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  overflow: hidden;
+}
+.mainwallpaper-img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 25%;
+}
+.content{
+  position: relative;
+  z-index: 1;
+  width: min(520px, 92%);
+  margin: 0 auto;
+  padding-top: 90px;     
+  padding-bottom: 60px;
+}
+.bevezeto-szoveg{
+  text-align: center;
+  font-size: 23px;
+  font-weight: 300;
+  color: rgb(72,66,66);
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.idopont-sor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 8px;
+  margin: 25px 20px;
+  border-bottom: 1px solid rgba(0,0,0,0.08);
+  border: 1px solid rgba(224, 193, 196, 0.35);
+  border-radius: 15px;
+  -webkit-backdrop-filter: blur(9px);
+  box-shadow: 0px 4px 7px rgb(204, 204, 204);
+  background: rgba(253, 243, 245, 0.25)
+}
+.idopont-bal {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+}
+.idopont-datum {
+  font-size: 18px;
+  color: #777;
+  letter-spacing: 0.5px;
+}
+.idopont-ora {
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 0px;
+  color: #6f5a5a;
+}
+.idopont-jobb {
+  display: flex;
+  gap: 8px;
+}
+.ikon-gomb {
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.9);
+  border: 1px solid rgba(0,0,0,0.08);
+
+  color: #6f5a5a;
+  text-decoration: none;
+
+  transition: 0.2s ease;
+}
+.ikon-gomb:hover {
+  background: #6f5a5a;
+  color: white;
+}
+
+
+@media screen and (min-width:320px) and (max-width:400px) {
+  
+
+    .bevezeto-szoveg{
+        font-size: 18px;
+    }
+  .idopont-datum{
+        font-size:15px;
+  }
+  .idopont-ora{
+        font-size:17px
+  }
+  .ikon-gomb{
+   width: 34px;
+   height: 34px;
+  }
+  
+
+ 
+}
+
+@media screen and (min-width:401px) and (max-width:500px) {
+   .bevezeto-szoveg{
+        font-size: 18px;
+    }
+  .idopont-datum{
+        font-size:17px;
+  }
+  .idopont-ora{
+        font-size:17px
+  }
+  .ikon-gomb{
+   width: 34px;
+   height: 34px;
+  }
+  
+
+ 
+}
