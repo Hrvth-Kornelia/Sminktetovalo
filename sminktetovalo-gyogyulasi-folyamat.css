@@ -1,0 +1,579 @@
+@font-face {
+  font-family: "DidotPro";
+  src:
+    url("webfont-type/font.woff2") format("woff2"),
+    url("webfont-type/font.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+body{
+  margin: 0;
+}
+html{
+  -webkit-text-size-adjust: 100%;
+}
+.navbar{
+ display: flex;
+ align-items: center;
+ width: 100%;
+ height: 70px;
+ background:linear-gradient(to bottom, #e8e8e8, #f6f2f2);
+ box-shadow: 0px 3px 12px rgba(47, 47, 47, 0.318);
+ border-bottom: 1px solid rgb(242, 242, 242);
+ z-index: 2;
+}
+.bi-box-arrow-left{
+ color: #5b534d;
+ display: flex;
+ align-items: flex-start;
+ padding-left: 4px;
+ font-size: 21px;
+ padding-top: 3px;
+}
+.fooldal-cim{
+  display: flex;
+  padding-left: 10px;
+  align-items: flex-start;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  color: #5b534d;
+  letter-spacing: 1px;
+}
+.fooldal-cim-keret{
+  border: 1px solid #8c7259;
+  border-radius: 5px;
+  max-width: 220px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+  padding-left: 5px;
+  padding-right: 8px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.eden-salon-cim{
+  margin: 0 auto;
+  align-items: center;
+  font-family: "DidotPro";
+  font-size: 24px;
+  color: #5b534d;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+}
+.bi-telephone{
+  margin-left: auto;
+  padding-right: 30px;
+  color: #8c7259;
+  font-size: 22px;
+}
+.bi-envelope-at-fill{
+  display: flex;
+  margin-left: auto;
+  padding-right: 50px;
+  color: #8c7259;
+  font-size: 22px;
+}
+a{
+  text-decoration: none !important;
+}
+.portfolio-es-szolgaltatasok-gombok{
+ display: flex;
+ width: 100%;
+ max-width: 420px;
+ z-index: 3;
+ position: absolute;
+ justify-content: center;
+ align-items: center;
+ gap: 20px;
+ left: 50%;
+ transform: translateX(-50%);
+ top: 60%;
+}
+.portfolio-gomb{
+  background: linear-gradient(to left, #b69999, #876161);
+  font-size: 19px;
+  color: #f4efef;
+  width: 100%;
+  max-width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  padding-top: 3px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.szolgaltatasok-gomb{
+  border: 1px solid #f4f1ef;
+  font-size: 19px;
+  color: #fbfafa;
+  width: 100%;
+  max-width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.main-wallpaper img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  position: relative;
+  z-index: -1;
+  display: block;
+  filter: brightness(0.55) ;
+}
+.main-wallpaper{
+  position: relative;
+  display: block;
+}
+.main-wallpaper-szoveg{
+  position: absolute;
+  display: flex;
+  z-index: 1;
+  transform: translate(-50%, -40%);
+  left: 50%;
+  top: 40%;
+  font-size: 42px;
+  width: 870px;
+  color: rgb(252, 252, 252);
+  font-family: "DidotPro";
+  text-align: center;
+  justify-content: center;
+ 
+}
+.bekezdes-elso{
+    display: flex;
+    max-width: 450px;
+    width: 100%;
+    margin: 40px auto;
+    text-align: center;
+    align-items: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px;
+    height: auto;
+    color: rgb(99, 77, 72);
+}
+.bekezdes-masodik-hatter{
+    width: 100%;
+    height: 110px;
+    background-color: rgb(219, 210, 209);
+    margin: 0px auto;
+    height: 110px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bekezdes-masodik{
+    display: flex;
+    max-width: 550px;
+    width: 100%;
+    text-align: center;
+    margin: 35px auto;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: rgb(66, 66, 66);
+}
+.harom-fo-doboz{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   gap: 40px;
+   margin-top: 60px;
+}
+.doboz1,
+.doboz3,
+.doboz2{
+  max-width: 350px;
+  height: 150px;
+  border-radius: 5px;
+  text-align: center;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.doboz1,
+.doboz3{
+  border-left: 1px solid #d0baba;
+  border-right: 1px solid #d0baba;
+}
+.doboz-cim2{
+  font-family: "DidotPro";
+  font-size: 20px;
+}
+.doboz-cim3,
+.doboz-cim1{
+color: #a57e7e;
+font-family: "DidotPro";
+font-size: 20px;
+text-decoration: underline;
+text-underline-offset: 2px;
+text-decoration-thickness: 0.2px;
+}
+.doboz-tartalom-leiras{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.bi-bandaid-fill,
+.bi-calendar-day,
+.bi-signpost-2{
+  display: flex;
+  margin-top: -10px;
+  padding-bottom: 5px;
+  justify-content: center;
+  align-items: center;
+}
+.bi-palette,
+.bi-flower3,
+.bi-droplet,
+.bi-fire,
+.bi-bandaid{
+  padding-right: 10px;
+  font-size: 27px;
+}
+
+
+
+/* KÉP */
+.nap-kep-0nap img,
+.nap-kep-3-5nap img,
+.nap-kep-6-10nap img{
+    height: auto;
+    border-radius: 15px;
+    display: block;
+    object-fit: cover;
+}
+.nap-kep-0nap img{
+  max-width: 320px;
+}
+.nap-kep-3-5nap img{
+   max-width: 320px;
+}
+.nap-kep-6-10nap img {
+  max-width: 380px;
+}
+
+
+.fade-Up{
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+.fade-Up.active{
+    opacity: 1;
+    transform: translateY(0);
+}
+.fade-left{
+    opacity: 0;
+    transform: translateX(-40px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+.fade-left.active{
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
+
+.nap-blokk-bal1{
+   display:grid;
+   grid-template-columns:320px 560px;
+   gap:60px;
+   align-items:flex-start;
+   justify-content:start;
+   max-width:1100px;
+   margin:120px 0 120px 110px;
+}
+.nap-blokk-bal2{
+   display:grid;
+   grid-template-columns:380px 560px;
+   gap:60px;
+   align-items:flex-start;
+   justify-content:start;
+   max-width:1100px;
+   margin:120px 0 120px 110px ;
+}
+.nap-blokk-jobb1{
+   display:grid;
+   grid-template-columns:520px 320px;
+   gap:60px;
+   align-items:flex-start;
+   justify-content:end;
+   max-width:1100px;
+   margin:120px 0 120px 290px;
+}
+.szakasz-elvalaszto{
+width:100%;
+text-align:center;
+background:#f7f0f0;
+padding:60px 40px;
+margin:140px 0;
+font-family:"DidotPro";
+font-size:30px;
+letter-spacing:3px;
+text-transform:uppercase;
+position:relative;
+}
+
+.szakasz-elvalaszto::after{
+content:"";
+display:block;
+width:80px;
+height:2px;
+background:#e4bcbc;
+margin:25px auto 0 auto;
+}
+.nap-szoveg h2{
+   margin-bottom:60px;
+   text-transform: uppercase;
+   font-family: "DidotPro";
+   white-space: nowrap;
+  
+}
+.jellemzok-cim-bal,
+.jellemzok-cim-jobb{
+  padding-bottom: 30px;
+  font-size: 23px;
+}
+.jellemzok-bal,
+.jellemzok-jobb{
+    list-style:none;
+    margin-bottom: 50px;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:18px 40px;
+}
+.jellemzok-bal li,
+.jellemzok-jobb li{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    font-size: 17px;
+    white-space: nowrap;
+}
+.bi-palette,
+.bi-flower3,
+.bi-droplet,
+.bi-fire,
+.bi-bandaid{
+  padding-right: 10px;
+  font-size: 27px;
+  color:#c79b9b;
+}
+.hr{
+  display: none;
+}
+p.hosszu-leiras-bal{
+    max-width:600px;
+    width: 100%;
+    margin:0;
+    line-height:1.7;
+    border-left: 2px solid #d8ccc5;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+p.hosszu-leiras-jobb {
+max-width:600px;
+line-height:1.7;
+border-left: 2px solid #d8ccc5;
+padding-left: 20px;
+margin-top: 20px;
+}
+
+
+
+
+
+
+
+/* MOBIL NÉZET */
+
+@media screen and (min-width:320px) and (max-width: 400px) {
+
+  body{
+    padding: 0;
+    margin: 0;
+  }
+  .main-wallpaper img{
+    width: 100%;
+    height: clamp(35vh, 45vh, 55vh);
+    object-position: 50%;
+  }
+  .main-wallpaper-szoveg{
+    font-size: clamp(32px, 6.3vw, 34px);
+    color: rgb(255, 255, 255);
+    width: 90%;
+    text-align:left;
+    opacity: 0;
+    animation: fadein 1.6s ease-out forwards;
+  }
+  @keyframes fadein{
+    from{
+      opacity: 0;
+    }
+    to{
+      opacity: 1;
+    }
+  }
+  .fooldal-cim{
+     font-size: clamp(8px, 4.2vw, 26px);
+  }
+  .fooldal-cim-keret{
+    max-width: 120px;
+    margin-left: 6px;
+    padding: 3px;
+  }
+  .eden-salon-cim{
+     font-size: clamp(15px, 5vw, 26px);
+     letter-spacing: 2px;
+  }
+  .bi-box-arrow-left{
+     padding-left: 5px;
+     font-size: clamp(12px, 4.3vw, 26px);
+  }
+  .bi-envelope-at-fill,
+  .bi-telephone{
+      font-size: clamp(8px, 4.5vw, 26px);
+      padding-right: 10px;
+  }
+  .bekezdes-elso{
+    display: none;
+  }
+  .bekezdes-masodik{
+    font-size: clamp(11px, 3.4vw, 14px);
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .bekezdes-masodik-hatter{
+    height: 110px;
+  }
+  .portfolio-es-szolgaltatasok-gombok{
+    top: 62%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .szolgaltatasok-gomb,
+  .portfolio-gomb{
+    font-size: clamp(13px, 3.9vw, 24px);
+    max-width: 150px;
+    height: 40px;
+    padding:5px;
+  }
+  .harom-fo-doboz{
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto;
+    gap: 25px;
+    max-width: 290px;
+  }
+  .doboz-cim1,
+  .doboz-cim2,
+  .doboz-cim3{
+    font-size: clamp(21px, 4.3vw, 24px);
+    padding-bottom: 0px;
+  }
+  .doboz1,
+  .doboz3,
+  .doboz2{
+   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);   
+   padding-left: 10px;
+   padding-right: 10px;
+  }
+  .bi-bandaid,
+  .bi-calendar-day,
+  .bi-signpost-2{
+   font-size: clamp(20px,4.3vw,22px);
+  }
+  .doboz-tartalom-leiras{
+   font-size: clamp(14px, 3.6vw, 26px);
+  }
+  .szakasz-elvalaszto{
+   padding: 30px 20px;
+   margin-top: 80px;
+   margin-bottom: 60px;
+   font-size: clamp(19px, 4.2vw, 24px);
+  }
+  .nap-kep-0nap img,
+  .nap-kep-3-5nap img,
+  .nap-kep-6-10nap img{
+    width:85%;
+    height:auto;
+    margin: 20px auto;    
+  }
+ 
+  .nap-blokk-bal1,
+  .nap-blokk-jobb1,
+  .nap-blokk-bal2{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    white-space: normal;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    margin: 50px auto;
+  }
+  .nap-kep-3-5nap{
+    order: 1;
+  }
+  .nap-szoveg{
+    order: 2;
+  }
+  .nap-szoveg h2{
+    text-align: center;
+    margin-bottom: 40px;
+    white-space: normal;
+  }
+  .jellemzok-cim-bal,
+  .jellemzok-cim-jobb{
+   font-size: clamp(19px, 4.2vw, 24px); 
+  }
+  .jellemzok-bal li,
+  .jellemzok-jobb li{
+    font-size: clamp(15px, 3.7vw, 24px); 
+  }
+  .jellemzok-bal,
+  .jellemzok-jobb{
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+  .hosszu-leiras-bal,
+  .hosszu-leiras-jobb{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .hr{
+    display: block;
+    max-width: 500px;
+    width: 100%;
+    padding-right: 30px;
+    height: 1px;
+    margin: 0;
+    padding: 0;
+    background:#e4d6d6 ;
+  }
+  .bi-palette,
+.bi-flower3,
+.bi-droplet,
+.bi-fire,
+.bi-bandaid{
+  font-size: clamp(24px, 3.6vw, 28px); 
+}
+
+}
+
+
+
+  
